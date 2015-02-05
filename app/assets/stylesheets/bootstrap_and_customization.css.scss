@@ -1,6 +1,11 @@
+
+@import url(http://fonts.googleapis.com/css?family=Lato);
+$font-family-sans-serif: 		'Lato', 'Helvatica Neue', Helvetica, Arial, sans-serif;
+
 $btn-default-bg: #2CD356; 
 $btn-default-color: #ffffff;
 $btn-default-border: #219747; 
+
 
 
 $btn-primary-bg: #70BAEF; 
@@ -12,4 +17,6 @@ $jumbotron-heading-color: #ffffff;
 $jumbotron-color: #ffffff; 
 
 
-@import 'bootstrap' ;
+
+
+@import 'bootstrap';
