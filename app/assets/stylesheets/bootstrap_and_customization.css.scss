@@ -24,9 +24,13 @@ $btn-primary-bg: #70BAEF;
 $btn-primary-color: #ffffff;
 $btn-primary-border: #3588C1;
 
-
+$btn-success-bg: #ffffff; 
+$btn-success-color: #4D4E4E;
+$btn-success-border: #4D4E4E;
 
 $panel-body-padding: 70px;
+
+
 
 
 @import 'bootstrap';
@@ -44,5 +48,6 @@ body {
 	padding-bottom: 70px;
 }
 
-
-
+.navbar{
+   background:rgba(248,248,248,0.9);
+}
