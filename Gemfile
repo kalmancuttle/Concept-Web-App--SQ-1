@@ -24,6 +24,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'bootstrap-sass'
 
+gem 'devise' , '~>3.4.1'
+
 
 group :production do
 	gem 'pg'
