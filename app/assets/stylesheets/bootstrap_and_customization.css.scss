@@ -2,8 +2,10 @@
 @import url(http://fonts.googleapis.com/css?family=Lato);
 $font-family-sans-serif: 		'Lato', 'Helvatica Neue', Helvetica, Arial, sans-serifs;
 
-$navbar-default-bg: #ffffff;
+
+$navbar-default-navbar-fixed-top-bg: #ffffff;
 $navbar-default-brand-color: #3A7CB9;
+$navbar-default-link-hover-bg:#EEEEEE;
 
 $body-bg: #EEEEEE;
 
@@ -24,11 +26,23 @@ $btn-primary-border: #3588C1;
 
 
 
+$panel-body-padding: 70px;
+
+
 @import 'bootstrap';
 
 
 .navbar-brand {
 	font-weight: bold;
 }
+
+body { 
+	padding-top: 70px;
+}
+
+body { 
+	padding-bottom: 70px;
+}
+
 
 
