@@ -1,8 +1,16 @@
+<% if user_signed_in? %>
+          # do something
+     <% else %>
+
+
+
 <div class="jumbotron">
+	
 	<h1 class="text-center">Sanebox UX Labs</h1>
 	<p class="text-center">A quick demo of </p>
-	 <p class="text-center"><%= link_to "App Demo", "#", class: "btn btn-default btn-lg btn-center" %> <%= link_to "UX Tests", "#", class: "btn btn-primary btn-lg" %></p>
+	 <p class="text-center"><%= link_to "App Demo", new_user_registration_path, class: "btn btn-default btn-lg btn-center" %> <%= link_to "UX Tests", "#", class: "btn btn-primary btn-lg" %></p>
 </div>
+
 <%= render "layouts/thumbnails" %>
 
 <div class="panel panel-default">
@@ -11,3 +19,4 @@
 		<h3 class="text-center"> This is a demontration of a web app with user authentication, responsive layout and other C.R.U.D content belonging to users.</h3>
 	</div>
 </div>
+<% end %>
