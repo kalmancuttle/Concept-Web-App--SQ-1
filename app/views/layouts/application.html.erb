@@ -1,22 +1,26 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Fastrack</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= csrf_meta_tags %>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-<body>
+	
+<!-- Optimizely snippet of code to run experiments -->
+<script src="//cdn.optimizely.com/js/2404950557.js"></script>
 
-	<%= render "layouts/headerfooter" %>
-	<div class = "container">
-		<% flash.each do |name, msg| %>
-     		<%= content_tag(:div, msg, class: "alert alert-info") %>
-		<% end %>
-		<%= yield %>
-	</div>
+		<head>
+		  <title>Fastrack</title>
+		  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+		  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+		  <%= csrf_meta_tags %>
+		  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		</head>
+		<body>
 
-</body>
+			<%= render "layouts/headerfooter" %>
+			<div class = "container">
+				<% flash.each do |name, msg| %>
+		     		<%= content_tag(:div, msg, class: "alert alert-info") %>
+				<% end %>
+				<%= yield %>
+			</div>
+
+		</body>
 
 </html>
