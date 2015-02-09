@@ -2,9 +2,21 @@
           
 		<div class="jumbotron">
 	
-				<h1 class="text-center"> CONGRATS!</h1>
-				<p class="text-center">Welcome to Kalman UX.</p>
+				<h1 class="text-center"> </h1>
+				<p class="text-center">Dashboard.</p>
 		</div>
+		<!-- testing out vertical bottons -->
+			<div class="btn-group-vertical" role="group" aria-label="left">
+				 <button type="button" class="btn btn-primary">Overview</button>
+				 <button type="button" class="btn btn-success">Features</button>
+  				 <button type="button" class="btn btn-success">Train AcmeBox</button>
+  				  <button type="button" class="btn btn-success">Digest</button>
+  				  <button type="button" class="btn btn-success">Settings</button>
+  				   <button type="button" class="btn btn-success">Buy AcmeBox</button>
+  				    <button type="button" class="btn btn-primary">Get AcmeBox for free</button>
+  			
+			</div>
+
 
      <% else %>
 
@@ -12,9 +24,9 @@
 
 <div class="jumbotron">
 	
-	<h1 class="text-center">Welcome to TEAM USA!</h1>
-	<p class="text-center">Click here to  </p>
-	 <p class="text-center"><%= link_to "Join", new_user_registration_path, class: "btn btn-default btn-lg btn-center" %> <%= link_to "view action", "https://www.optimizely.com/projects/2404950557/experiments/2456100011", class: "btn btn-primary btn-lg" %></p>
+	<h1 class="text-center">Welcome to AcmeBox </h1>
+	<p class="text-center"> Clean up you inbox </p>
+	 <p class="text-center"><%= link_to "Now", new_user_registration_path, class: "btn btn-default btn-lg btn-center" %> <%= link_to "view action", "https://www.optimizely.com/projects/2404950557/experiments/2456100011", class: "btn btn-primary btn-lg" %></p>
 </div>
 
 <%= render "layouts/thumbnails" %>
