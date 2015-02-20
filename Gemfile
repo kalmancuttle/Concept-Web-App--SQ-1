@@ -27,6 +27,8 @@ gem 'bootstrap-sass'
 gem 'devise' , '~>3.4.1'
 
 
+
+
 group :production do
 	gem 'pg'
 	gem 'rails_12factor'
