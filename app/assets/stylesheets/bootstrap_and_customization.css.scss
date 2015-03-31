@@ -2,20 +2,22 @@
 $font-family-sans-serif: 		'Raleway', 'Helvatica Neue', Helvetica, Arial, sans-serifs;
 
 
-$navbar-default-navbar-fixed-top-bg: #ffffff;
+$navbar-inverse-navbar-fixed-top-bg: #171D29;
+$navbar-default-link-hover-bg:#EEEEEE;
+$navbar-default-color:#EEEEEE;
 $navbar-default-brand-color: #E54125;
 $navbar-default-link-hover-bg:#EEEEEE;
 
-$body-bg: #EEEEEE;
+$body-bg: #171D29;
 
 
-$jumbotron-bg: #E54125;
-$jumbotron-heading-color: #ffffff; 
+$jumbotron-bg: #171D29;  
+$jumbotron-heading-color: #F05456; 
 $jumbotron-color: #ffffff; 
 
 
 
-$btn-default-bg: #E54125; 
+$btn-default-bg: #171D29; 
 $btn-default-color: #ffffff;
 $btn-default-border: #ffffff; 
 
@@ -31,16 +33,32 @@ $btn-success-color: #4D4E4E;
 $btn-success-border: #4D4E4E;
 
 $panel-body-padding: 70px;
-
+$panel-border: #6D6262;
+$panel-heading-color: #ffffff;
 
 
 
 @import 'bootstrap';
 
 
+.text-center {
+	color: #B5B3B3;
+}
+
 .navbar-brand {
 	font-weight: bold;
 }
+
+
+.navbar-inverse .navbar-toggle {
+  border-color: #F05456;
+  color: #F05456;
+  }
+ 
+ .navbar-inverse .navbar-toggle .icon-bar {
+  	background-color: #F05456;
+  }
+
 
 body { 
 	padding-top: 70px;
@@ -51,10 +69,11 @@ body {
 }
 
 .navbar{
-   background:rgba(248,248,248,0.9);
+   background:rgba(32,32,32,0.9);
+   
 }
 
-.btn-default:hover { color: #E54125; border-color: #ffffff; background-color: #ffffff;}
+.btn-default:hover { color: #171D29; border-color: #ffffff; background-color: #ffffff;}
 
 
 
