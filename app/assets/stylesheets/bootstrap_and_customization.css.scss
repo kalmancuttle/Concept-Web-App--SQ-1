@@ -12,15 +12,15 @@ $navbar-default-link-hover-bg:#EEEEEE;
 $body-bg: #171D29;
 
 
-$jumbotron-bg: #171D29;  
-$jumbotron-heading-color: #74E003; 
+$jumbotron-bg: #322F28;  
+$jumbotron-heading-color: #FFFFFF; 
 $jumbotron-color: #ffffff; 
 
 
 
-$btn-default-bg: #171D29; 
+$btn-default-bg: #0FB6A7; 
 $btn-default-color: #ffffff;
-$btn-default-border: #ffffff; 
+$btn-default-border: #0FB6A7; 
 
 
 
@@ -52,12 +52,12 @@ $panel-heading-color: #ffffff;
 
 
 .navbar-inverse .navbar-toggle {
-  border-color: #F05456;
-  color: #F05456;
+  border-color: #9DC545;
+  color: #9DC545;
   }
  
  .navbar-inverse .navbar-toggle .icon-bar {
-  	background-color: #F05456;
+  	background-color: #9DC545;
   }
 
 
@@ -74,7 +74,7 @@ body {
    
 }
 
-.btn-default:hover { color: #171D29; border-color: #ffffff; background-color: #ffffff;}
+.btn-default:hover { color: #0FB6A7; border-color: #ffffff; background-color: #ffffff;}
 
 
 
