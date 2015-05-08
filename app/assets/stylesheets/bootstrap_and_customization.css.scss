@@ -2,48 +2,50 @@
 $font-family-sans-serif: 		'Raleway', 'Helvatica Neue', Helvetica, Arial, sans-serifs;
 
 
-$navbar-inverse-navbar-fixed-top-bg: #171D29;
+$navbar-fixed-top-bg: #FFFFFF;
 
 $navbar-default-link-hover-bg: #74E003;
-$navbar-default-color:#EEEEEE;
+$navbar-default-color:#FFFFFF;
 $navbar-default-brand-color: #E54125;
 $navbar-default-link-hover-bg:#EEEEEE;
 
-$body-bg: #171D29;
+$body-bg: #FFFFFF;
 
 
-$jumbotron-bg: #322F28;  
+$jumbotron-bg: #2086C3;  
 $jumbotron-heading-color: #FFFFFF; 
-$jumbotron-color: #ffffff; 
+$jumbotron-color: #FFFFFF; 
 
 
 
-$btn-default-bg: #0FB6A7; 
+$btn-default-bg: #2086C3; 
 $btn-default-color: #ffffff;
-$btn-default-border: #0FB6A7; 
+$btn-default-border: #FFFFFF; 
 
 
 
 $btn-primary-bg: #70BAEF; 
-$btn-primary-color: #ffffff;
-$btn-primary-border: #3588C1;
+$btn-primary-color: #FFFFFF;
+$btn-primary-border: #FFFFFF;;
 
 
-$btn-success-bg: #ffffff; 
+$btn-success-bg: #FFFFFF; 
 $btn-success-color: #4D4E4E;
 $btn-success-border: #4D4E4E;
 
 $panel-body-padding: 70px;
 $panel-border: #6D6262;
-$panel-heading-color: #ffffff;
+$panel-heading-color: #FFFFFF;
 
 
 
 @import 'bootstrap';
 
-
+.jumbotron .text-center {
+  color: #FFFFFF;
+}
 .text-center {
-	color: #B5B3B3;
+	color: #323232;
 }
 
 .navbar-brand {
@@ -70,11 +72,11 @@ body {
 }
 
 .navbar{
-   background:rgba(32,32,32,0.9);
+   background:rgba(255, 255, 255, 0.9);
    
 }
 
-.btn-default:hover { color: #0FB6A7; border-color: #ffffff; background-color: #ffffff;}
+.btn-default:hover { color: #2086C3; border-color: #ffffff; background-color: #ffffff;}
 
 
 
